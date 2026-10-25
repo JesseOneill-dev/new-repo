@@ -1,2 +1,22 @@
-test change
-hrgdg
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checklist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Checklist</h1>
+    <form id="form" novalidate>
+      <input id="item" type="text" maxlength="100" placeholder="Add an item" aria-describedby="error" autocomplete="off">
+      <button type="submit">Add</button>
+    </form>
+    <p id="error" class="error" role="alert"></p>
+    <ul id="list"></ul>
+    <p id="count"></p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

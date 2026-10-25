@@ -1,0 +1,10 @@
+body { font-family: sans-serif; background: #f3f4f6; margin: 0; }
+main { max-width: 480px; margin: 2rem auto; background: #fff; padding: 1.5rem; border-radius: 8px; }
+form { display: flex; gap: .5rem; }
+input[type=text] { flex: 1; padding: .5rem; }
+input.invalid { border: 2px solid #c00; }
+.error { color: #c00; min-height: 1.2em; }
+ul { list-style: none; padding: 0; }
+li { display: flex; align-items: center; gap: .5rem; padding: .4rem 0; border-bottom: 1px solid #eee; }
+li.done span { text-decoration: line-through; color: #888; }
+li span { flex: 1; word-break: break-word; }
